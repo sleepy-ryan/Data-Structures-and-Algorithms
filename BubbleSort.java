@@ -25,6 +25,7 @@ public class BubbleSort {
         System.out.println("From greatest to least, type 2");
 
         int sortMethod = fillArray.nextInt();
+        fillArray.close();
 
         switch (sortMethod) {
             case 1:
